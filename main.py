@@ -21,18 +21,19 @@ while True:
         print("It's a tie")
     elif CPU == 'R' and player_choice == 'P':
         print("You win! Paper beats Rock")
+        break
     elif CPU == 'P' and player_choice == 'S':
         print("You win! Scissors beats Paper")
+        break
     elif CPU == 'S' and player_choice == 'R':
         print("You win! Rock beats Scissors")
+        break
     elif CPU == 'P' and player_choice == 'R':
         print("You lose! Paper beats Rock")
+        break
     elif CPU == 'S' and player_choice == 'P':
         print("You lose! Scissors beats Paper")
+        break
     elif CPU == 'R' and player_choice == 'S':
         print("You lose! Rock beats Scissors")
-
-
-    play_again = input("Play again? (y/n): ")
-    if play_again.lower() != "y":
         break
